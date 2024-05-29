@@ -1,0 +1,13 @@
+h1{
+    color:goldenrod;
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: bold;
+      
+}
+
+h2{
+    font-family: "Heebo", sans-serif;
+  font-optical-sizing: auto;
+}
