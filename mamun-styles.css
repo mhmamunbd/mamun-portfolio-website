@@ -79,7 +79,7 @@ list-style-type: none;
 
 
 .nav-right ul li:hover{
-  background-color: rgb(0, 194, 129);
+  background-color: #7779dc;
   transition:all .5s ease-in-out;
 }
 
@@ -95,9 +95,14 @@ margin-top: 100;
 overflow: hidden;
 top:200px ;
 bottom:0px;
-
-
 box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+}
+
+#aboutMyself{
+  width:100%;
+  height:500px;
+  background-color: #ffffff;
+ position: relative;
 }
 
 .home-container .profile-image{
@@ -116,8 +121,16 @@ box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
   height: 100%;
   padding: 35px;
   border-radius: 7%;
+  transition: all 1s ease-in-out;
 
   }
+  .home-container .profile-image:hover img{
+    transform:translateX(25px);
+    transition: all .5s ease-in-out;
+    box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
+  
+    }
+
 .personal-info{
   padding:30px;
   margin-top: 50px;
@@ -191,6 +204,7 @@ box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
   font-size: 16px;
   border-radius: 5px;
   text-align: center;
+  transition: all 1s ease-in-out;
 }
 
 .social-icon .contact-icon li i{
@@ -198,6 +212,7 @@ box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
   color:#ffffff;
   line-height: 40px;
   font-size: 16px;
+  
 }
 
 .social-icon .contact-icon{
@@ -206,16 +221,11 @@ box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3);
 
 
 .social-icon .contact-icon li:hover{
+ 
   background-image: -webkit-linear-gradient(45deg, #766dff 0%, #88f3ff 100%);
+  transition: all 1s ease-in-out;
 }
 
 
 
 
-#aboutMyself{
-  width:100%;
-  height:500px;
-  background-color: #ffffff;
- position: relative;
-
-}
