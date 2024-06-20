@@ -738,16 +738,21 @@ display: block;
   background-color: #000000;
   overflow: hidden;
 }
-.footer-content .about-me, .news-latter, .follow-me{
-  width:300px;
+.about-me, .news-latter{
+  width:400px;
   float: left;
-  margin-right: 35px;
+  margin-right: 45px;
 }
 .follow-me{
-
-  margin-right: none;
+  width: 150px;
+  float: right;
+  margin-right: 0px !important;
 }
 
+.news-latter{
+  width: 500px;
+  margin-right: 0px !important;
+}
 
 .footer-content {
 
@@ -790,7 +795,7 @@ display: block;
 
 .footer-social  li i {
  font-size: 14px;
-  
+ transition: all .5s ease-in-out;
 }
 
 .about-me p:last-child a{
@@ -802,3 +807,47 @@ display: block;
 .about-me p:last-child {
   margin-top: 35px !important;
 }
+
+
+.footer-social  li:hover i {
+color: #766dff;
+transition: all .5s ease-in-out;
+
+ }
+
+ .news-latter .mail{
+  width: 80%;
+  padding: 12px 15px;
+  border: 1px solid #776dff43;
+  background-color: #000000;
+  text-transform: capitalize;
+  color: #ffffff;
+ }
+
+ .news-latter ::placeholder{
+  color:#ffffff;
+  border: none;
+ 
+ }
+
+ .news-latter input:focus{
+  border:1px solid #776dff43;
+ 
+ }
+
+ .news-latter button{
+  background: linear-gradient(to right, #766dff 0%, #86e8ff 70%);
+  width: 10%;
+  padding: 12px 0px;
+  border: none;
+  background-color: #000000;
+  text-transform: capitalize;
+  color: #ffffff;
+  cursor: pointer;
+ }
+
+ .news-latter button i{
+  color: #ffffff;
+ }
+
+
